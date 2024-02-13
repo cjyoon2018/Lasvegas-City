@@ -1,0 +1,127 @@
+/* General Resets and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FAF9F6; /* A soft, neutral background */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-image: linear-gradient(to right, #6D45E1, #C31432); /* Eye-catching gradient */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #FAC213; /* Accent border */
+}
+
+header h1 {
+    font-size: 2.8rem; /* Larger heading for impact */
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: auto;
+    max-width: 800px; /* Centering paragraph */
+    opacity: 0.9; /* Soften the text */
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    border-radius: 10px; /* Rounded corners for a modern look */
+}
+
+section + section {
+    margin-top: 30px; /* Space between sections */
+}
+
+h2 {
+    background-color: #FA8231; /* Warm color for headings */
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for headings */
+}
+
+article {
+    margin-bottom: 20px;
+    background-color: #FEF9EF; /* Light background for articles */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Very soft shadow for elevation */
+}
+
+article img {
+    width: 100%; /* Responsive images */
+    max-width: 400px; /* Restricting size for larger displays */
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 15px; /* Center images */
+}
+
+article h3 {
+    color: #C850C0; /* A pop of color for subheadings */
+    margin-bottom: 10px;
+}
+
+article p, aside p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #3498DB; /* Vibrant link color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    color: #EB3B5A; /* Change color on hover */
+}
+
+aside {
+    background-color: #ECF0F1; /* Clean, light grey for aside */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+footer {
+    background-color: #333; /* Dark footer for contrast */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #FFD700; /* Gold for footer links to stand out */
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #F0E68C; /* Lighter gold on hover */
+}
